@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Meu site</title>
 </head>
 
@@ -14,41 +14,68 @@
 
         <!-- Navegação do portifolio -->
 
-        <header class="cabecalho">
+        <header id="#topo" class="cabecalho">
+            <p>&lt;Ester Morais&gt;</p>
             <nav>
-            <button></button>
-            <button></button>
-            <button></button>
+                <div class="botoes">
+                    <button>
+                        <a href="#about">Sobre</a>
+                    </button>
+                    <button>
+                        <a href="#projects">Projetos</a>
+                    </button>
+                    <button>
+                        <a href="http://api.whatsapp.com/send?phone=5519997183289">Contrate-me</a>
+                    </button>
+                </div>
             </nav>
         </header>
-        <main class="perfil">
-            <div class="perfil-foto">
+        <main class="conteudo">
+            <div class="perfil">
                 <img>
             </div>
 
             <!-- Minha foto / Minha descrição / Botão para meu curriculo -->
 
             <div class="perfil-sobre">
-                <p></p>
-                <p></p>
-                <p></p>
-                <button></button>
+                <h3>Ester de Morais</h3>
+                <h1>Slogan</h1>
+                <p>Minha descrição (o sobre mim cv)</p>
+
+                <button>
+                    <a href="linkdovercel" target="_blank">Curriculo</a>
+                </button>
             </div>
 
-<!-- Minhas redes / icones das redes / paragrafo indicando redes e meu email -->
+            <!-- Minhas redes / icones das redes usar da biblioteca / paragrafo indicando redes e meu email -->
 
-            <footer class="rodape">
-                <div class="redes">
-                    <p></p>
-                    <p></p>
+            <div class="perfil-redes">
+                <p>Me mande uma mensagem em uma de minhas redes</p>
+                <a href="mailto:dev.estermorais@gmail.com">dev.estermorais@gmail.com</a>
 
-                    <a href="#">Github</a>
-                    <a href="#">Linkedin</a>
-                    <a href="#">Whatsapp</a>
-                </div>
-            </footer>
+                <a href="#">Github</a>
+                <a href="#">Linkedin</a>
+                <a href="#">Whatsapp</a>
+            </div>
+
+            <div id="projects" class="projetos">
+
+            </div>
         </main>
+        <footer class="rodape">
+            <!-- quero que fique há esquerda e as redes socias no meio novamente ( com efeito hover) -->
+            <address>
+                <p>Ester Morais <strong>Araras, SP</strong></p>
+            </address>
+
+            <button>
+               <p id="#topo">VOLTAR PARA O TOPO</p>
+            </button>
+
+        </footer>
+
     </div>
+
 </body>
 
 </html>
