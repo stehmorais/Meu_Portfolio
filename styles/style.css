@@ -7,7 +7,7 @@
 }
 
 .container{
-    min-height: 100vh;
+    min-height: 200vh;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -54,12 +54,40 @@ button{
     text-transform: uppercase;
     transition: 0.5s;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .link:hover{
-    color:  rgb(216, 4, 181);
-    letter-spacing: 0.20em;
-    box-shadow: 0 0 45px rgb(216, 4, 181);
+    color:  rgb(255, 255, 255);
+    letter-spacing: 0.21em;
+    box-shadow: 0 0 45px rgb(156, 23, 134);
+}
+
+.pulse{
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        box-shadow: 0 0 0 0 rgba(255,0,255,.5), 0 0 0 0 rgba(255,0,255,.5);
+    }
+
+    40%
+    {
+        box-shadow: 0 0 0 10px rgba(255,0,255,0), 0 0 0 0 rgba(255,0,255,.5);
+    }
+
+    80%
+    {
+        box-shadow: 0 0 0 10px rgba(255,0,255,0), 0 0 0 10px rgba(255,0,255,0);
+    }
+
+    100%
+    {
+        box-shadow: 0 0 0 0 rgba(255,0,255,0),0 0 0 10px rgba(255,0,255,0);
+    }
 }
 
 .conteudo{
@@ -72,34 +100,30 @@ button{
     background-color: black;  
 }
 
+.perfil-home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 .foto{
     width: 150px;
     margin: 30px 0px 15px;
     border-radius: 50%;
+    box-shadow: 0px 0px 80px 8px rgb(71, 19, 63);
 }
 
 .boas-vindas{
-    color: rgb(216, 4, 181);;
-    margin-bottom: 20px;
+    color: rgb(216, 4, 181);
+    margin: 20px;
 }
 
 .slogan{
     color: white;
     font-weight: 700;
     font-size: 40px;
-}
-
-.descricao{
-    color: white;
-    margin: 20px;
-    font-size: 20px;
-}
-
-.perfil-home{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 }
 
 span{
@@ -109,19 +133,29 @@ span{
 
 .perfil-botao{
     border: transparent;
-    margin: 35px;
+    margin: 100px;
 }
+
 
 .curriculo{
     color: white;
 }
 
 p{
-    text-align: center;
+    margin: 10px;
+    
 }
 
+
+.descricao{
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+
+
 .perfil-redes{
-    background-color: aqua ;
+  
 }
 
 .rodape{
