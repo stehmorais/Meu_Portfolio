@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Meu site</title>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <title>💜 Ester Morais</title>
 </head>
 
 <body>
@@ -15,36 +16,59 @@
         <!-- Navegação do portifolio -->
 
         <header id="#topo" class="cabecalho">
-            <p>&lt;Ester Morais&gt;</p>
+            <a id="home" href="#home">
+                <p class="name"><span>&lt;</span>Ester/Morais<span>&gt;</span></p>
+            </a>
+
             <nav>
                 <div class="botoes">
                     <button>
-                        <a href="#about">Sobre</a>
+                        <a class="link" href="#about">Sobre</a>
                     </button>
                     <button>
-                        <a href="#projects">Projetos</a>
+                        <a class="link" href="#tech">Tecnologias</a>
                     </button>
                     <button>
-                        <a href="http://api.whatsapp.com/send?phone=5519997183289">Contrate-me</a>
+                        <a class="link" href="#projects">Projetos</a>
+                    </button>
+                    <button>
+                        <a class="link"
+                            href="http://api.whatsapp.com/send?phone=5519997183289"><span>Contrate-me</span><i></i></a>
                     </button>
                 </div>
             </nav>
+            <!-- 
+            <div class="tema">
+                <input type="checkbox" class="checkbox" id="chk">
+
+                <label class="label" for="chk"> -->
+            <i class="fas fa-moon"></i>
+            <!-- <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label> -->
+
+            <!-- </div> -->
+
         </header>
         <main class="conteudo">
-            <div class="perfil">
-                <img>
-            </div>
+            <figure id="backToTop" class="perfil">
+                <img class="foto" src="./images/perfil.png">
+            </figure>
 
             <!-- Minha foto / Minha descrição / Botão para meu curriculo -->
 
-            <div class="perfil-sobre">
-                <h3>Ester de Morais</h3>
-                <h1>Slogan</h1>
-                <p>Minha descrição (o sobre mim cv)</p>
+            <div  class="perfil-home">
 
-                <button>
-                    <a href="linkdovercel" target="_blank">Curriculo</a>
+                <h3 class="boas-vindas"> Bem-vindo ao meu portifólio</h3>
+                <p class="slogan">Criadora de interfaces de qualidade que não mede esforços quando o assunto é aprender
+                    e ajudar pessoas.</p>
+
+                <button class="perfil-botao">
+                    <a class="link curriculo" href="linkdovercel" target="_blank">Curriculo</a>
                 </button>
+
+
+                <p>scrool down <i class="fas fa-angles-down"></i></p>
             </div>
 
             <!-- Minhas redes / icones das redes usar da biblioteca / paragrafo indicando redes e meu email -->
@@ -58,6 +82,14 @@
                 <a href="#">Whatsapp</a>
             </div>
 
+             <!-- <div id="about" class="perfil-sobre">
+                <p class="descricao">Muito prazer, me chamo Ester, sou <span>Desenvolvedora front-end</span> a um ano, atualmente cursando o 2° semestre em Desenvolvimento de Software Multiplataforma na Fatec Antonio Brambilla, em minha cidade Araras, SP. Estou a procura por uma vaga de estágio  para entrar no mercado, tenho feito diversos cursos para melhorar cada vez mais o meu aprendizado com muita dedicação, tendo em mente que estamos sempre em constante aprendizado.</i></p>
+            </div> -->
+
+            <div id="tech" class="tecnologias">
+
+            </div>
+
             <div id="projects" class="projetos">
 
             </div>
@@ -65,11 +97,14 @@
         <footer class="rodape">
             <!-- quero que fique há esquerda e as redes socias no meio novamente ( com efeito hover) -->
             <address>
-                <p>Ester Morais <strong>Araras, SP</strong></p>
+                <p>Desenvolvido com <img class="desenvolvedora" src="./images/heart.png" alt="ícone de coração"> por
+                    <a class="desenvolvedora-link" href="https://www.linkedin.com/in/ester-morais-438aa4224/">Ester
+                        Morais</a>
+                </p>
             </address>
 
             <button>
-               <p id="#topo">VOLTAR PARA O TOPO</p>
+                <a class="link" href="#home">VOLTAR PARA O TOPO</a>
             </button>
 
         </footer>

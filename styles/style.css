@@ -7,8 +7,8 @@
 }
 
 .container{
-    min-height: 400vh;
-    background-color: gray;
+    min-height: 100vh;
+    background-color: black;
     display: flex;
     flex-direction: column;
     font-family: 'DM Sans', sans-serif;
@@ -16,34 +16,108 @@
 
 .cabecalho{
     flex-basis: 100%;
-    padding: 25px;
-    background-color:white;
-    border: 2px solid black;
+    padding: 40px;
+    background-color:black;
+    color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.name{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#home{
+    text-decoration: none;
 }
 
 .botoes{
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+button{
+    background-color: transparent;
+}
+
+.link{
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.link:hover{
+    color:  rgb(216, 4, 181);
+    letter-spacing: 0.20em;
+    box-shadow: 0 0 45px rgb(216, 4, 181);
 }
 
 .conteudo{
     flex: 1 0 400px;
     padding: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    background-color: yellowgreen;  
+    background-color: black;  
 }
 
-.perfil{
-    /* minha foto */
+.foto{
+    width: 150px;
+    margin: 30px 0px 15px;
+    border-radius: 50%;
 }
 
-.perfil-sobre{
-    background-color: pink;
+.boas-vindas{
+    color: rgb(216, 4, 181);;
+    margin-bottom: 20px;
+}
+
+.slogan{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.descricao{
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.perfil-home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+span{
+    color:rgb(216, 4, 181);
+    font-weight: 700;
+}
+
+.perfil-botao{
+    border: transparent;
+    margin: 35px;
+}
+
+.curriculo{
+    color: white;
+}
+
+p{
+    text-align: center;
 }
 
 .perfil-redes{
@@ -56,7 +130,25 @@
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
-    background-color: blueviolet;
+    background-color: black;
+    color: white;
     line-height: 15px;
 }
+
+.desenvolvedora{
+    width: 15px;
+}
+
+.desenvolvedora-link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(216, 4, 181);
+    transition: 0.4s;
+}
+
+.desenvolvedora-link:hover{
+    color: rgb(160, 1, 160); 
+}
+
 
