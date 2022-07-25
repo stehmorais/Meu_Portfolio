@@ -214,13 +214,46 @@ button {
 
 /* Sobre */
 
-.descricao {
+.perfil-sobre{
+    width: 80%;
     color: white;
-    margin: 20px;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.perfil-sobre h1{
+    font-weight: 200;
+    text-align: center;
+}
+
+.perfil-sobre p{
     font-size: 20px;
 }
 
-.perfil-redes {}
+.text{
+    margin: 5px;
+}
+
+.perfil-descricao {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+
+.perfil-redes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+
+.icons{
+   padding:  30px;
+}
+
 
 
 
