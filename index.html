@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="https://kit.fontawesome.com/d37c5443c6.js" crossorigin="anonymous"></script>
     <title>💜 Ester Morais</title>
 </head>
@@ -15,9 +16,10 @@
 
         <!-- Navegação do portifolio -->
 
-        <header class="cabecalho">
-            <a id="home" href="#home">
-                <p class="name"><span>&lt;</span>Ester/Morais<span>&gt;</span></p>
+        <!-- Arrumar home -->
+        <header id="home" class="cabecalho">
+            <a  href="#home">
+                <p  class="name"><span>&lt;</span>Ester/Morais<span>&gt;</span></p>
             </a>
 
             <nav>
@@ -83,7 +85,7 @@
             <!-- Sobre -->
 
             <section id="about" class="perfil-sobre init-hidden">
-                <div class="perfil-descricao">
+                <div  class="perfil-descricao">
                     <h1>SOBRE MIM</h1>
                     <p>Muito prazer, me chamo Ester, sou <span>Desenvolvedora front-end</span> desde
                         fevereiro de 2022,
@@ -103,19 +105,33 @@
                     </div>
                     <div>
                         <ul>
-                            <li><a href="https://github.com/StehMorais" target="_blank"><i class="fa fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/ester-morais-438aa4224/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="http://api.whatsapp.com/send?phone=5519997183289" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
-                            <li><a href="https://www.instagram.com/_stermxrais/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://github.com/StehMorais" target="_blank"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/ester-morais-438aa4224/" target="_blank"><i
+                                        class="fa fa-linkedin"></i></a></li>
+                            <li><a href="http://api.whatsapp.com/send?phone=5519997183289" target="_blank"><i
+                                        class="fa fa-whatsapp"></i></a></li>
+                            <li><a href="https://www.instagram.com/_stermxrais/" target="_blank"><i
+                                        class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </section>
 
-            <section id="tech" class="tecnologias">
+            <section id="tech" class="tecnologias init-hidden">
+                <h1>Tecnologias</h1>
+                     <!-- adicionar efeito para aparecer titulo com mini explicação do que é a linguagem, ou um hover -->
+                <div class="icons-tech">
+                    <img class="icon" src="./images/html.png" alt="html">
+                <div>
+                    
+                <div class="icons-tech">
+                    <img class="icon" src="./images/css.png" alt="css">
+                </div>
 
-
-
+                        <!-- <img class="icon" src="./images/javascript.png" alt="javascript">
+                    <img class="icon" src="./images/react.png" alt="react">
+                    <img class="icon" src="./images/git.png" alt="git"> -->      
             </section>
 
             <section id="projects" class="projetos">
@@ -128,15 +144,20 @@
             <!-- quero que fique há esquerda e as redes socias no meio novamente ( com efeito hover) -->
             <address>
                 <p>Desenvolvido com <img class="desenvolvedora" src="./images/heart.png" alt="ícone de coração"> por
-                    <a class="desenvolvedora-link" href="https://www.linkedin.com/in/ester-morais-438aa4224/">Ester Morais</a>
+                    <a class="desenvolvedora-link" href="https://www.linkedin.com/in/ester-morais-438aa4224/">Ester
+                        Morais</a>
                 </p>
             </address>
 
             <div class="rodape-redes">
-                <a href="https://github.com/StehMorais" class="link-icon" target="_blank"><i class="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/ester-morais-438aa4224/" class="link-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="http://api.whatsapp.com/send?phone=5519997183289" class="link-icon" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
-                <a href="https://www.instagram.com/_stermxrais/" class="link-icon" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://github.com/StehMorais" class="link-icon" target="_blank"><i
+                        class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/ester-morais-438aa4224/" class="link-icon" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="http://api.whatsapp.com/send?phone=5519997183289" class="link-icon" target="_blank"><i
+                        class="fab fa-whatsapp-square"></i></a>
+                <a href="https://www.instagram.com/_stermxrais/" class="link-icon" target="_blank"><i
+                        class="fab fa-instagram-square"></i></a>
             </div>
 
             <button>
@@ -145,7 +166,7 @@
 
         </footer>
     </div>
-     <script src="./javascript/index.js"></script>
+    <script src="./javascript/index.js"></script>
 </body>
 
 </html>

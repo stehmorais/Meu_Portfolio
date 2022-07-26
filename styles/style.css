@@ -215,7 +215,8 @@ button {
 }
 
 .perfil-botao {
-    margin: 80px;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 .curriculo {
@@ -252,7 +253,7 @@ button {
 
 .scroll-name {
     font-size: 18px;
-    margin-top: 70px;
+    margin-top: 50px;
     letter-spacing: 2px;
     font-weight: bold;
 }
@@ -359,7 +360,40 @@ a:hover::before {
 
 /* Tecnologias */
 
+.tecnologias{
+    display: flex;
+    margin: 10em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
 
+.tecnologias h1{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.icons-tech{
+    width: 90px;
+    height: 90px;
+    background-color: #CD07AC;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+  
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    flex: 100%;
+}   
 
 
 /* Projetos */
