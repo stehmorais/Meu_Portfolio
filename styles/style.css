@@ -7,8 +7,8 @@
 }
 
 :root {
-    --pink:#d804b5;
-    --hoverpink:#9c1786;
+    --pink: #d804b5;
+    --hoverpink: #9c1786;
     --hoverwhite: #f0f8ff;
 }
 
@@ -265,7 +265,7 @@ button {
 
 /* Sobre */
 
-.init-hidden{
+.init-hidden {
     opacity: 0;
     transition: opacity 1s linear;
 }
@@ -360,16 +360,18 @@ a:hover::before {
 
 /* Tecnologias */
 
-.tecnologias{
+.tecnologias {
     display: flex;
     margin: 10em;
     flex-direction: column;
     justify-content: center;
+    background-color: black;
     align-items: center;
-    width: 80%;
+    width: 100%;
+
 }
 
-.tecnologias h1{
+.tecnologias h1 {
     font-size: 50px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -378,22 +380,10 @@ a:hover::before {
     margin-bottom: 50px;
 }
 
-.icons-tech{
-    width: 90px;
-    height: 90px;
-    background-color: #CD07AC;
-    border-radius: 10px;
-    display: flex;
-    gap: 10px;
-}
-  
 .icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
-    flex: 100%;
-}   
+ margin: 10px;
+}
+
 
 
 /* Projetos */
@@ -418,19 +408,19 @@ a:hover::before {
     width: 15px;
 }
 
-.rodape-redes{
+.rodape-redes {
     display: flex;
     gap: 10px;
 }
 
-.link-icon{
+.link-icon {
     color: white;
     font-size: 1.3rem;
     transition: color 0.2s;
 }
 
-.link-icon:hover{
-    color:#9c05aace;
+.link-icon:hover {
+    color: #9c05aace;
 }
 
 .desenvolvedora-link {
@@ -444,6 +434,3 @@ a:hover::before {
 .desenvolvedora-link:hover {
     color: var(--hoverpink);
 }
-
-
-

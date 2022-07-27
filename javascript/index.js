@@ -4,7 +4,7 @@ chk.addEventListener('change', () => {
     document.getElementById('.container').toggle('light') }) */
 
 const observer = new IntersectionObserver(entries => {
-    console.log(entries)
+   
 
     Array.from(entries).forEach( entry => {
         if (entry.intersectionRatio >=1){
