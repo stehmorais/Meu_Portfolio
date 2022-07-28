@@ -1,7 +1,12 @@
-/*const chk = document.getElementById('chk')
+const moon = document.getElementById('')
+const container = document.getElementById('container')
 
-chk.addEventListener('change', () => {
-    document.getElementById('.container').toggle('light') }) */
+function light () {
+    container.style.backgroundColor = 'white';
+}
+
+
+chk.addEventListener('click', light);
 
 const observer = new IntersectionObserver(entries => {
    
@@ -18,3 +23,7 @@ const observer = new IntersectionObserver(entries => {
 Array.from(document.querySelectorAll('.init-hidden')).forEach(element => {
     observer.observe(element)
 });  
+
+
+    
+    

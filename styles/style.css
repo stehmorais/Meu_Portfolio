@@ -12,7 +12,7 @@
     --hoverwhite: #f0f8ff;
 }
 
-.container {
+#container {
     min-height: 100vh;
     background-color: black;
     display: flex;
@@ -22,10 +22,6 @@
 }
 
 /* Tema */
-
-.container.light {
-    background-color: white;
-}
 
 .checkbox {
     opacity: 0;
