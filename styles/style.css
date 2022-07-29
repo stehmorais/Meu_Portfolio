@@ -15,6 +15,7 @@
 #container {
     min-height: 100vh;
     background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     font-family: 'DM Sans', sans-serif;
@@ -28,44 +29,20 @@
     position: absolute;
 }
 
-.label {
-    background-color: #2e0133;
-    border-radius: 50px;
+.bloco-tema {
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
     position: relative;
-    height: 26px;
-    width: 50px;
-
 }
 
-.label .ball {
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    height: 22px;
-    width: 22px;
-    transform: translateX(0px);
-    transition: transform 0.2s linear;
+.item{
+    width: 35px;
 }
 
-.checkbox:checked+.label .ball {
-    transform: translateX(24px);
-}
-
-.fa-moon {
-    color: #dfdbdb;
-}
-
-.fa-sun {
-    color: #f1c40f;
-}
-
+ 
 /* estilização da scrollbar */
 
 ::-webkit-scrollbar {
@@ -180,7 +157,6 @@ button {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    background-color: black;
 }
 
 /* Home */
@@ -193,7 +169,7 @@ button {
 }
 
 .perfil-home {
-    color: white;
+  
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -205,7 +181,7 @@ button {
 }
 
 .slogan {
-    color: white;
+  
     font-weight: 700;
     font-size: 40px;
 }
@@ -246,7 +222,6 @@ button {
     }
 }
 
-
 .scroll-name {
     font-size: 18px;
     margin-top: 50px;
@@ -272,7 +247,7 @@ button {
 
 .perfil-sobre {
     width: 80%;
-    color: white;
+   
     background-color: #1c1c1c;
     border-radius: 20px;
     margin: 15px;
@@ -294,7 +269,7 @@ button {
     display: flex;
     flex-direction: column;
     text-align: left;
-    color: white;
+
 }
 
 .perfil-redes {
@@ -361,7 +336,6 @@ a:hover::before {
     margin: 10em;
     flex-direction: column;
     justify-content: center;
-    background-color: black;
     align-items: center;
     width: 100%;
 
@@ -372,7 +346,7 @@ a:hover::before {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 200;
-    color: white;
+  
     margin-bottom: 50px;
 }
 
@@ -392,11 +366,11 @@ a:hover::before {
 .rodape {
     flex-basis: 100%;
     padding: 25px;
+    background-color: black;
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
-    background-color: black;
-    color: white;
+    color: white;   
     line-height: 15px;
 }
 
