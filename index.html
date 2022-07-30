@@ -17,7 +17,7 @@
         <!-- Navegação do portifolio -->
 
         <!-- Arrumar home -->
-        <header id="home" class="cabecalho">
+        <header  class="cabecalho">
             <a href="#home">
                 <p class="name"><span>&lt;</span>Ester/Morais<span>&gt;</span></p>
             </a>
@@ -29,11 +29,11 @@
                     </button>
 
                     <button>
-                        <a class="link" href="#tech">Tecnologias</a>
+                        <a class="link" href="#projects">Projetos</a>
                     </button>
 
                     <button>
-                        <a class="link" href="#projects">Projetos</a>
+                        <a class="link" href="#tech">Tecnologias</a>
                     </button>
 
                     <!-- ver tutorial da ballerini e fazer um boot de watsaap para me mandar msg de contrato -->
@@ -55,7 +55,7 @@
         </header>
 
         <main class="conteudo">
-            <figure>
+            <figure id="home">
                 <img class="perfil-foto" src="./images/perfil2.png" alt="foto de perfil">
             </figure>
 
@@ -72,7 +72,7 @@
                         target="_blank">Curriculo</a>
                 </button>
 
-                <div class="scroll">
+                <div id="about" class="scroll">
                     <a href="#about">
                         <p class="scroll-name">scrool down</p>
                         <img class="scroll-img" src="./images/scroll.png" alt="setinha indicando rolagem">
@@ -82,7 +82,7 @@
 
             <!-- Sobre -->
 
-            <section id="about" class="perfil-sobre init-hidden">
+            <section class="perfil-sobre init-hidden">
                 <div class="perfil-descricao">
                     <h1>SOBRE MIM</h1>
                     <p>Muito prazer, me chamo Ester, sou <span>Desenvolvedora front-end</span> desde
@@ -102,16 +102,92 @@
                         <a href="mailto:dev.estermorais@gmail.com"><span>dev.estermorais@gmail.com</span></a>
                     </div>
                     <div>
-                        <ul>
-                            <li><a class="rede" href="https://github.com/StehMorais" target="_blank"><i class="fa fa-github"></i></a>
+                        <ul class="lista-rede">
+                            <li><a class="rede" href="https://github.com/StehMorais" target="_blank"><i
+                                        class="fa fa-github"></i></a>
                             </li>
-                            <li><a class="rede" href="https://www.linkedin.com/in/ester-morais-438aa4224/" target="_blank"><i
-                                        class="fa fa-linkedin"></i></a></li>
-                            <li><a class="rede" href="http://api.whatsapp.com/send?phone=5519997183289" target="_blank"><i
-                                        class="fa fa-whatsapp"></i></a></li>
+                            <li><a class="rede" href="https://www.linkedin.com/in/ester-morais-438aa4224/"
+                                    target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="rede" href="http://api.whatsapp.com/send?phone=5519997183289"
+                                    target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                             <li><a class="rede" href="https://www.instagram.com/_stermxrais/" target="_blank"><i
                                         class="fa fa-instagram"></i></a></li>
                         </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projetos">
+                <div class="tittle">
+                    <h1>Projetos</h1>
+                    <a href="https://github.com/stehmorais?tab=repositories">Github</a>
+                </div>
+                <div class="scroll-bar">
+                    <div class="projeto">
+                       <img src="./images/Landing page.svg" alt="Projeto 1 - Landing Page">
+                       <div class="text">
+                        <h3>Landing Page</h3>
+                        <p>O projeto constitui em uma landing page estática para apresentar os serviçoes de
+                            uma empresa fictícia<br><span>Tecnologias utilizadas:</span><br>HTML, CSS</p> 
+                            <button>
+                                <a href="https://github.com/stehmorais/Landing_Page_Newslatter"><img src="./images/link.png">Visualizar</a>
+                            </button>
+                       </div>
+                    </div>
+                
+                    <div class="projeto">
+                        <img src="./images/construindo.svg" alt="Em construção">
+                       <div class="text">
+                        <h3>Em breve</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus facere a quibusdam nam! Obcaecati, temporibus. Nulla quidem ducimus quisquam perspiciatis!</p>
+                        <button>
+                            <a href="#"><img src="./images/link.png">Visualizar</a>
+                        </button> 
+                       </div>
+                    </div>
+
+                    <div class="projeto">
+                        <img src="./images/construindo.svg" alt="Em construção">
+                       <div class="text">
+                        <h3>Em breve</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus facere a quibusdam nam! Obcaecati, temporibus. Nulla quidem ducimus quisquam perspiciatis!</p> 
+                        <button>
+                            <a href="#"><img src="./images/link.png">Visualizar</a>
+                        </button> 
+                       </div>
+                    </div>
+
+                    <div class="projeto">
+                        <img src="./images/construindo.svg" alt="Em construçãp">
+                       <div class="text">
+                        <h3>Em breve</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus facere a quibusdam nam! Obcaecati, temporibus. Nulla quidem ducimus quisquam perspiciatis!</p> 
+                        <button>
+                            <a href="#"><img src="./images/link.png">Visualizar</a>
+                        </button> 
+                       </div>
+                    </div>
+
+                    <div class="projeto">
+                        <img src="./images/construindo.svg" alt="Em construção">
+                       <div class="text">
+                        <h3>Em breve</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus facere a quibusdam nam! Obcaecati, temporibus. Nulla quidem ducimus quisquam perspiciatis!</p>
+                        <button>
+                            <a href="#"><img src="./images/link.png">Visualizar</a>
+                        </button>  
+                       </div>
+                    </div>
+
+                    <div class="projeto">
+                        <img src="./images/construindo.svg" alt="Em construção">
+                       <div class="text">
+                        <h3>Em breve</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus facere a quibusdam nam! Obcaecati, temporibus. Nulla quidem ducimus quisquam perspiciatis!</p> 
+                        <button>
+                            <a href="#"><img src="./images/link.png">Visualizar</a>
+                        </button> 
+                       </div>
                     </div>
                 </div>
             </section>
@@ -127,58 +203,6 @@
                     <img class="icon" src="./images/react.svg">
                     <img class="icon" src="./images/git.svg">
                 </div>
-            </section>
-
-            <section id="projects" class="projetos init-hidden">
-                        <h1>Projetos</h1>
-                        <a href="https://github.com/stehmorais?tab=repositories">Github</a>
-                    <ul class="lista-projetos scroll-bar">
-                        <li>
-                            <img src="./images/Landing page.svg" alt="Landing Page">
-                            <div class="text">
-                               <h3>Landing Page</h3></a> 
-                                <p>O projeto constitui em uma landing page estática para apresentar os serviçoes de
-                                    uma empresa fictícia<br><span>Tecnologias utilizadas:</span><br>HTML, CSS<br>
-                                <a href="https://github.com/stehmorais/Landing_Page_Newslatter">Repositório</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/Landing page.svg" alt="Landing Page">
-                            <div class="text">
-                                <h3>Bot chat</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, doloremque. lo<br><span>Tecnologias utilizadas:</span><br>Low code, HTML, CSS</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/Landing page.svg" alt="Landing Page">
-                            <div class="text">
-                                <h3>Jogo mario</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea at dolorum laboriosam, unde officiis vel architecto quos soluta animi minus non ad aliquid fugit inventore ratione similique nam cumque eum!<br><span>Tecnologias utilizadas:</span><br>HTML, CSS, JavaScript</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/Landing page.svg" alt="Landing Page">
-                            <div class="text">
-                                <h3>Site pepsi</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, maxime!<br><span>Tecnologias utilizadas:</span><br>HTML, CSS, JavaScript</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/Landing page.svg" alt="Landing Page">
-                            <div class="text">
-                                <h3>Em Contrução</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, maxime!<br><span>Tecnologias utilizadas:</span><br>HTML, CSS, JavaScript</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/Landing page.svg" alt="Landing Page">
-                            <div class="text">
-                                <h3>Em Construção</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, maxime!<br><span>Tecnologias utilizadas:</span><br>HTML, CSS, JavaScript</p>
-                            </div>
-                        </li>
-                    </ul>
-                
             </section>
 
         </main>
@@ -203,7 +227,7 @@
             </div>
 
             <button>
-                <a class="link" href="#home">VOLTAR PARA O TOPO</a>
+                <a class="link" href="#home">VOLTAR PARA HOME</a>
             </button>
 
         </footer>
