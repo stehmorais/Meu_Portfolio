@@ -1,4 +1,3 @@
-const tema = document.getElementById('tema');
 const observer = new IntersectionObserver(entries => {
 
     Array.from(entries).forEach(entry => {
@@ -14,17 +13,17 @@ Array.from(document.querySelectorAll('.init-hidden')).forEach(element => {
     observer.observe(element)
 });
 
-function lightDark (i){
-    if ( i == 1){
-        container.style.backgroundColor = "white";
-        container.style.color = 'black'; 
-    } else if (i == 0) {
-        document.getElementById("tema").src="./images/sun.svg";
-        container.style.backgroundColor = "black";
-        container.style.color = 'white';  
+var imagem = window.document.getElementById('sunMoon')
+var container = window.document.getElementById('container')
+tema.addEventListener('click', lightDark)
+
+function lightDark(){
+    if (container.style.background == 'black'){
+        imagem.src = './images/moon.svg'
+    } else {
+        container.style.background = 'black'
+        imagem.src = './images/sun.svg'
     }
 }
 
-// tema.addEventListener('click', light);
-lightDark.addEventListener('click', lightDark);
 
