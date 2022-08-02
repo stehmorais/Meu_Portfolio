@@ -5,5 +5,7 @@
 
 visualize o progresso: https://stehmorais.github.io/Meu-Portifolio/
 
+Tecnologias utilizadas: HTML, CSS e JavaScript
+
 	🚧 🚀 Em construção...  🚧
 </h4>
