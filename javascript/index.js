@@ -17,13 +17,12 @@ var imagem = window.document.getElementById('sunMoon')
 var container = window.document.getElementById('container')
 tema.addEventListener('click', lightDark)
 
-function lightDark(){
-    if (container.style.background == 'black'){
+function lightDark() {
+    if (container.style.background == 'black') {
         imagem.src = './images/moon.svg'
     } else {
         container.style.background = 'black'
         imagem.src = './images/sun.svg'
     }
 }
-
 
