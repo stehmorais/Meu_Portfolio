@@ -48,6 +48,7 @@
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -259,7 +260,6 @@ button {
     display: flex;
     flex-direction: column;
     text-align: left;
-
 }
 
 .perfil-descricao h1 {
@@ -474,4 +474,55 @@ ul li .rede::before {
 
 .link-icon:hover {
     color: #9c05aace;
+}
+
+/* Responsividade */
+
+@media(max-width:2560px){
+
+    .perfil-sobre{
+        width: 80%;
+        height: 500px;
+    }
+
+    .perfil-redes{
+        margin-top: 70px;
+    }
+
+    .perfil-descricao{
+        text-align: center;
+    }
+
+    .text{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media(max-width:1150px){
+    .text{
+        width: 400px;
+        height: 400px;
+    }
+
+    .imgProjeto{
+        width: 400px;
+        height: 400px;
+   }
+}
+
+@media(max-width:870px){
+    .cabecalho{
+        position: relative;
+        flex-direction: column;
+    }
+
+    .cabecalho .name{
+        margin: 20px;
+    }
+
+    .perfil-sobre{
+        width: 80%;
+        height: 600px;
+    }
 }
