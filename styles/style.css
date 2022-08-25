@@ -128,27 +128,6 @@ button {
     }
 }
 
-/* Tema */
-
-.tema-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    border-radius: 15px;
-    width: 70px;
-    height: 10px;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.tema-button:hover {
-    background-color: rgb(31, 30, 30);
-}
-
-#sunMoon {
-    width: 100%;
-}
 
 /* Conteudo */
 

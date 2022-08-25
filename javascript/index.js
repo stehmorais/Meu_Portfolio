@@ -13,10 +13,3 @@ Array.from(document.querySelectorAll('.init-hidden')).forEach(element => {
     observer.observe(element)
 });
 
-
-function lightDark() {
-
-    let img = window.document.getElementById('sunMoon')
-    img.src = './images/moon.svg'
-   
-}
