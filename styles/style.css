@@ -100,7 +100,6 @@ button {
 
 .link:hover {
     color: var(--hoverwhite);
-    letter-spacing: 0.20em;
     box-shadow: 0 0 45px rgb(156, 23, 134);
 }
 
@@ -316,7 +315,7 @@ ul li .rede::before {
     align-items: center;
     padding: 50px;
     width: 90%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .lista-projetos .tittle {
@@ -340,7 +339,7 @@ ul li .rede::before {
 }
 
 .scroll-bar {
-    height: 700px;
+    height: 30em;
     overflow-y: scroll;
 }
 
