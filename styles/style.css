@@ -456,28 +456,137 @@ ul li .rede::before {
 
 /* Responsividade */
 
-@media(max-width:2560px){
+@media(min-width:2000px){
 
-    .perfil-sobre{
-        width: 80%;
-        height: 500px;
+    .cabecalho{
+        position: relative;
     }
 
-    .perfil-redes{
-        margin-top: 70px;
+    .cabecalho .name{
+        font-size: 40px;
+    }
+
+    .cabecalho .link{
+        font-size: 30px;
+    }
+
+    .conteudo .perfil-foto{
+        margin-top: 200px;
+        width: 300px;
+    }
+
+    .perfil-home h3{
+        font-size: 30px;
+    }
+
+    .perfil-home p{
+        font-size: 60px;
+        margin: 20px;
+    }
+
+    .perfil-botao a{
+        padding: 20px;
+        font-size: 40px;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+    .perfil-sobre{
+        margin: 200px;
+        width: 80%;
+        height: 800px;
     }
 
     .perfil-descricao{
-        text-align: center;
+        text-align: center; 
     }
 
+    .perfil-descricao p{
+        font-size: 40px;
+    }
+
+    .perfil-descricao h1{
+        font-size: 50px;
+    }
+
+   .email p {
+    margin-top: 50px;
+    font-size: 30px;
+   }
+
+   .email a{
+    font-size: 30px;
+   }
+
+    .lista-rede .rede{
+        width: 150px;
+        height: 150px;
+    }
+
+    .lista-projetos h1{
+        font-size: 100px;
+    }
+
+    .lista-projetos .tittle a{
+        font-size: 50px;
+    }
+
+    .scroll-bar{
+        height: 800px;
+    }
+
+   .imgProjeto{
+        width: 70rem;
+   }
+
     .text{
-        width: 500px;
+        width: 800px;
         height: 500px;
+        font-size: 30px;
+    }
+
+   .projeto button{
+        width: 300px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .projeto button img{
+        width: 30px;
+    }
+
+    .tecnologias {
+        margin: 300px;
+    }
+
+    .tecnologias .item-icon .icon{
+        width: 200px;
+    }
+
+    .rodape .rodape-redes{
+       display: none;
+    }
+
+    .rodape .link{
+        font-size: 30px;
+    }
+
+    .rodape p {
+        font-size: 30px;
+    }
+
+    .rodape a{
+        font-size: 30px;
     }
 }
 
-@media(max-width:1150px){
+@media(max-width:1050px){
+    .cabecalho{
+        position: relative;
+    }
+
     .text{
         width: 400px;
         height: 400px;
@@ -498,16 +607,71 @@ ul li .rede::before {
     .link{
        border: 1px solid var(--pink);
     }
-    button{
-        margin: 5px;
+
+    .cabecalho .btn{
+       display: none;
     }
 
     .cabecalho .name{
-        margin: 20px;
+        margin: 30px;
+    }
+
+    .scroll{
+        display: none;
     }
 
     .perfil-sobre{
         width: 80%;
         height: 600px;
     }
+
+    .imgProjeto{
+        height: 200px;
+    }
+
+    .scroll-bar{
+        height: 400px;
+    }
+
+    .projeto{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .rodape .rodape-redes{
+        display: none;
+     }
+
+}
+
+@media (max-width: 610px){
+
+    .tecnologias .icons-tech{
+        flex-wrap: wrap;
+        
+    }
+
+    .perfil-sobre{
+       
+        height: 700px;
+    }
+
+    .rodape button{
+        display: none;
+    }
+}
+
+@media (max-width: 530px){
+
+    .scroll-bar{
+        width: 450px;
+    }
+
+   .tecnologias h1{
+    font-size: 20px;
+   }
+
+   .lista-rede .rede{
+    display: none;
+   }
 }
