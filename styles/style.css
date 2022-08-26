@@ -671,7 +671,15 @@ ul li .rede::before {
     font-size: 20px;
    }
 
+   .perfil-sobre{
+    height: 800px;
+   }
+
    .lista-rede .rede{
+    display: none;
+   }
+
+    .text p{
     display: none;
    }
 }
