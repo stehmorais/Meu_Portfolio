@@ -73,11 +73,6 @@ span:hover {
     font-weight: 700;
 }
 
-a {
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-}
 
 .botoes {
     display: flex;
@@ -141,16 +136,11 @@ button {
 
 /* Home */
 
-.perfil-foto {
-    width: 150px;
-    margin: 120px 0px 15px;
-    border-radius: 50%;
-}
-
 .perfil-home {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 200px 0px 15px;
 }
 
 .boas-vindas {
@@ -178,6 +168,7 @@ button {
 .scroll-name {
     font-size: 18px;
     margin-top: 50px;
+    margin-bottom:100px;
     letter-spacing: 2px;
     font-weight: bold;
 }
