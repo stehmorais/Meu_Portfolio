@@ -1,6 +1,7 @@
 # Meu-Portifolio
 
-![image](https://user-images.githubusercontent.com/97535906/182404482-ca390b0b-c0e4-4475-8ff4-56e71610586e.png)
+![portfolio](https://user-images.githubusercontent.com/97535906/226207187-1965e589-4ec8-462f-b409-eb13b060b253.png)
+
 
 
 ## Do que se trata o projeto?
