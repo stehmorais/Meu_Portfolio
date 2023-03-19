@@ -5,7 +5,7 @@
 
 
 ## Do que se trata o projeto?
-O Projeto é o meu primeiro portifólio para me conhecerem melhor e apresentar os projetos que estou realizando e que os que ja finalizei.
+O Projeto é o meu primeiro portfólio para me conhecerem melhor e apresentar os projetos que estou realizando e que os que ja finalizei.
 
 <br>
 
